@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { propTypes } from 'react';
+
 
 const Rating = ({ value, text, color }) => (
-  <div className='rating'>
+  <div className='rating__wrapper'>
     <span style={{color}}>
       <span 
         className={value >=1 
@@ -59,6 +60,7 @@ const Rating = ({ value, text, color }) => (
 Rating.defaultProps = {
   color: '#f8e825',
 }
+
 
 
 export default Rating;
