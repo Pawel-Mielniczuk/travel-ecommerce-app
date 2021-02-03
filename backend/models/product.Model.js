@@ -1,5 +1,13 @@
 import mongoose from 'mongoose';
-import Review from './reviewModel';
+
+
+const reviewSchema = mongoose.Schema({
+  name: { type: String, required: true },
+  rating: { type: Number, required: true },
+  comment: { type: String, required: true }
+}, {
+  timestamps: true
+})
 
 const productSchema = mongoose.Schema({
   user: {
@@ -51,3 +59,7 @@ const productSchema = mongoose.Schema({
 }, {
   timestamps: true
 });
+
+const Product = mongoose.model('Product', productSchema);
+
+export default Product;

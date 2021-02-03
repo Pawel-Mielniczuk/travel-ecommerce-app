@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Salewa Mtn trainer gtx',
     image: '/images/buty_salewa_mtn.png',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 11,
   },
   {
-    _id: '2',
     name: 'Salewa Pro',
     image: '/images/buty_trekingowe_mtn.png',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Skarpa hike gtx',
     image: '/images/buty_trekingowe_skarpa.png',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Zamberlan Gtx mid',
     image: '/images/buty_trekingowe_zamberlan.png',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Smartwool hike crew',
     image: '/images/skarpety_hike_medium.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Smartwool super hike',
     image: '/images/skarpety_smartwool_hike.jpg',
     description:
@@ -79,4 +73,4 @@ const products = [
   },
 ]
 
-export default products
+export default products;
